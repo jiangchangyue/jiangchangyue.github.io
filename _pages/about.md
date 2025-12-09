@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-Hello, I’m Changyue Jiang (蒋昌跃), a Ph.D. student at Fudan University and Shanghai Innovation Institute (SII), advised by Prof. Min Yang (杨珉) and Prof. Xudong Pan (潘旭东).
+Hello, I’m Changyue Jiang (蒋昌跃), a Ph.D. student at Fudan University (复旦大学) and Shanghai Innovation Institute (SII, 上海创智学院), advised by Prof. Min Yang (杨珉) and Prof. Xudong Pan (潘旭东).
 My research interests include AI Security and AI Safety.
 
 Research Interests
