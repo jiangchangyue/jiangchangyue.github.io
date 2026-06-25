@@ -15,7 +15,7 @@ Research Interests
 - AI Security
 - AI Safety
 - Agent Safety
-- RAG
+- RAG Security
 
 Publications
 ======
