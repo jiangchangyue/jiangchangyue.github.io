@@ -20,4 +20,6 @@ Research Interests
 Publications
 ======
 1. <a href="https://arxiv.org/abs/2411.14110">Feedback-Guided Extraction of Knowledge Base from Retrieval-Augmented LLM Applications</a>
-2. <a href="https://arxiv.org/abs/2505.11063">Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction</a>
+2. <a href="https://arxiv.org/abs/2505.11063">Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction</a> ICML 2026 (CCF-A) 🎉🎉🎉
+3. <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-changyue">MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning</a> USENIX Security 2026 (CCF-A) 🎉🎉🎉
+4. <a href="https://arxiv.org/abs/2601.12822">MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction</a> ACM CCS 2026 (CCF-A) 🎉🎉🎉
