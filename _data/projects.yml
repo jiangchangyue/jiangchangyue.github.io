@@ -1,0 +1,15 @@
+- title: "Qise"
+  image: "my_pic/qise.png"
+  description: "A local-first security layer for AI agents. Qise helps users protect agents such as Codex, OpenClaw, Claude Code, and custom agents by scanning risky integrations, routing model traffic through a local guard proxy, blocking dangerous actions, and recording readable local security events."
+  links:
+    - label: "GitHub"
+      url: "https://github.com/WhitzardAgent/qise"
+    - label: "Website"
+      url: "https://jiangchangyue.github.io/qise-web/"
+
+- title: "snowl-mobile"
+  image: "my_pic/snowl-mobile.png"
+  description: "A mobile-agent evaluation and safety research toolkit for running, reproducing, and analyzing mobile-agent tasks on Android devices and emulators, with workflows oriented toward mobile agent safety benchmarks and experiment automation."
+  links:
+    - label: "GitHub"
+      url: "https://github.com/jiangchangyue/snowl-mobile"

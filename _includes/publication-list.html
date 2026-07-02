@@ -1,0 +1,8 @@
+{% assign publication_order = "Think Twice Before You Act|MATE: Policy-Aware Security Auditing|MirrorGuard: Toward Secure Computer-Use Agents|Feedback-Guided Extraction" | split: "|" %}
+{% for ordered_title in publication_order %}
+  {% for post in site.publications %}
+    {% if post.title contains ordered_title %}
+      {% include publication-card.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}

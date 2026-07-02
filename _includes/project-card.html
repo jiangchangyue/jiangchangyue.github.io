@@ -1,0 +1,24 @@
+<article class="project-card">
+  {% assign primary_link = project.links | first %}
+  {% if project.image %}
+    <a class="project-card__image" href="{{ primary_link.url }}" aria-label="{{ project.title }}">
+      <img
+        src="{% if project.image contains '://' %}{{ project.image }}{% else %}{{ project.image | prepend: '/images/' | prepend: base_path }}{% endif %}"
+        alt="{{ project.title | escape_once }} preview"
+        loading="lazy">
+    </a>
+  {% endif %}
+
+  <div class="project-card__body">
+    <h3 class="project-card__title">{{ project.title }}</h3>
+    <p class="project-card__description">{{ project.description }}</p>
+
+    {% if project.links %}
+      <div class="project-card__links" aria-label="{{ project.title }} links">
+        {% for link in project.links %}
+          <a href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+</article>

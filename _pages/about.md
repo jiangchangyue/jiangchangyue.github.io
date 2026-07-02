@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "Changyue Jiang (蒋昌跃)"
+description: "Changyue Jiang (蒋昌跃) is a Ph.D. student at Fudan University and Shanghai Innovation Institute working on AI Security and AI Safety."
+keywords: "Changyue Jiang, 蒋昌跃, Fudan University, Shanghai Innovation Institute, AI Security, AI Safety, Agent Safety, RAG Security"
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,7 +23,11 @@ Research Interests
 
 Publications
 ======
-1. <a href="https://arxiv.org/abs/2411.14110">Feedback-Guided Extraction of Knowledge Base from Retrieval-Augmented LLM Applications</a>
-2. <a href="https://arxiv.org/abs/2505.11063">Think Twice Before You Act: Enhancing Agent Behavioral Safety with Thought Correction</a> ICML 2026 (CCF-A) 🎉🎉🎉
-3. <a href="https://www.usenix.org/conference/usenixsecurity26/presentation/jiang-changyue">MATE: Policy-Aware Security Auditing for Mobile Agents via Synthesis-Driven Trajectory Learning</a> USENIX Security 2026 (CCF-A) 🎉🎉🎉
-4. <a href="https://arxiv.org/abs/2601.12822">MirrorGuard: Toward Secure Computer-Use Agents via Simulation-to-Real Reasoning Correction</a> ACM CCS 2026 (CCF-A) 🎉🎉🎉
+{% include publication-list.html %}
+
+See the <a href="/publications/">Publications</a> page for publication details.
+
+<h2 id="projects">Open Source Projects</h2>
+{% for project in site.data.projects %}
+  {% include project-card.html %}
+{% endfor %}

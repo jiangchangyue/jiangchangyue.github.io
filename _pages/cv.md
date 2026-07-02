@@ -11,54 +11,24 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D. student, Fudan University and Shanghai Innovation Institute, 2024-present
 
-Work experience
+Research interests
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
-
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* AI Security
+* AI Safety
+* Agent Safety
+* RAG Security
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+  <ul>
+  {% assign publication_order = "Think Twice Before You Act|MATE: Policy-Aware Security Auditing|MirrorGuard: Toward Secure Computer-Use Agents|Feedback-Guided Extraction" | split: "|" %}
+  {% for ordered_title in publication_order %}
+    {% for post in site.publications %}
+      {% if post.title contains ordered_title %}
+        {% include archive-single-cv.html %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+  </ul>
